@@ -1,0 +1,25 @@
+{
+  "name": "gulp-strip-react-dom-comment",
+  "version": "0.0.1",
+  "description": "Strips the /** @jsx React.DOM */ from pipes to support tools that can't handle the comment",
+  "keywords": [
+    "strip",
+    "gulp",
+    "react",
+    "react.js",
+    "dom",
+    "react.dom"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StoneCypher/gulp-strip-react-dom-comment.git"
+  },
+  "author": {
+    "name": "John Haugeland"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "~2.2.5",
+    "event-stream": "~3.0.20"
+  }
+}
