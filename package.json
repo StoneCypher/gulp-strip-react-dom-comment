@@ -10,6 +10,7 @@
     "dom",
     "react.dom"
   ],
+  "main": "stripdom.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/StoneCypher/gulp-strip-react-dom-comment.git"
