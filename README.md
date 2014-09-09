@@ -61,7 +61,13 @@ $ gulp build
 ```
 
 To fix this, you'd want the React JSX line automatically removed, which this
-plugin does, like so:
+plugin does.  First require the plugin:
+
+```javascript
+var stripDomComment = require('gulp-strip-react-dom-comment');
+```
+
+Then add a line to our previous `gulp` rule, like so:
 
 ```javascript
 ...
