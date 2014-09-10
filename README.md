@@ -7,7 +7,7 @@ handle the comment.
 ![Language](http://img.shields.io/badge/Language-JavaScript-000000.svg) &nbsp;
 ![Platform](http://img.shields.io/badge/Platform-NPM-000000.svg) &nbsp;
 ![License](http://img.shields.io/badge/License-MIT-000055.svg) &nbsp;
-![Status](http://img.shields.io/travis/gulp-strip-react-dom-comment/htstub.svg)
+![Status](http://img.shields.io/travis/StoneCypher/gulp-strip-react-dom-comment.svg)
 
 [![NPM Downloads](http://img.shields.io/npm/dm/gulp-strip-react-dom-comment.svg)](https://npmjs.org/package/gulp-strip-react-dom-comment.js)
 
