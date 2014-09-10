@@ -75,7 +75,6 @@ Then add a line to our previous `gulp` rule, like so:
         .pipe(stripDomComment())       // Add me here to fix the problem!
         .pipe(yuidoc.parser())
 ...
-});
 ```
 
 And thus, our point.
