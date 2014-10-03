@@ -36,7 +36,7 @@ gulp.task('yuidoc', [], function() {
 });
 ```
 
-Unfortunately, even though this rule is generally correct, this will kersplode,
+Unfortunately, even though this rule is generally correct, this will kersplode and die,
 because `YUIDoc` expects comments in `/** @foo\n  * @bar\n  */\n` form, and
 the React JSX signal comment `/** @jsx React.DOM */` incorrectly triggers that
 as a YUIDoc rule, which in turn fails because it's missing YUIDoc requirements.
