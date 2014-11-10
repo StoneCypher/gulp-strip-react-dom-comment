@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "gulp-util": "~2.2.5",
-    "event-stream": "~3.0.20"
+    "event-stream": "~3.0.20",
+    "sc-eslint": "*"
   }
 }
