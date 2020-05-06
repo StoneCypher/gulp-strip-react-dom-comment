@@ -21,6 +21,12 @@
   "license": "MIT",
   "dependencies": {
     "event-stream": "~3.0.20",
-    "sc-eslint": "*"
-  }
+    "sc-eslint": "*",
+    "snyk": "^1.319.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
